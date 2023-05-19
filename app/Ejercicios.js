@@ -164,3 +164,30 @@
 // -------------------------------------------------------------------------------
 
 // Determinar si una palabra empieza con mayúscula o no.
+
+// function mayus(palabra) {
+//   var expReg = /^[A-Z]/;
+//   expReg.test(palabra);
+// }
+
+// console.log(mayus("hola"));
+
+// -------------------------------------------------------------------------------
+
+// Determinar si un año dado es bisiesto
+
+let anio = parseInt(prompt("Ingrese un año"));
+
+if (anio === 365) {
+  console.log("Es un año comun");
+} else {
+  if (anio < 365) {
+    console.log("Es menos de un año");
+  } else {
+    if (anio > 366) {
+      console.log("Es mas de un año");
+    } else if (anio === 366) {
+      console.log("Es un año bisiesto");
+    }
+  }
+}
