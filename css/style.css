@@ -2,6 +2,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100vh;
-  font-size: 3rem;
+  font-size: 2rem;
+  background-color: #000000d8;
+  color: #ffffffb1;
 }
